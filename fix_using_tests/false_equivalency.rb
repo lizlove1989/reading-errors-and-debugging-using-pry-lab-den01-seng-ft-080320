@@ -6,14 +6,14 @@ end
 
 def prompt_user
   puts "What would you like to do?"
-  puts "1.) Eat a hamburger."
-  puts "2.) Eat a ham."
+  puts 1.to_s " Eat a hamburger."
+  puts 2.to_s "Eat a ham."
 end
 
-def selection(num1, num2)
-  if num1 = 1
+def selection(num)
+  if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num2 = 2
+  elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
